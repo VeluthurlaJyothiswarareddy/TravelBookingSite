@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel design website</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="index.css">
+
+</head>
+<body>
+    
+    <header>
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>T</span>ravel</a>
+
+        <nav class="navbar">
+            <a href="#home">Home</a>
+            <a href="#book">Book</a>
+            <a href="#packages">Packages</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#review">Review</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!-- header section ends -->
+
+
+    <!-- login  form container -->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email">
+            <input type="password" class="box" placeholder="enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- home section starts -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h3>adventures is worthwhile</h3>
+            <p>discover new places with us, adventures awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" data-src="../images/video.mp4"></span>
+            <span class="vid-btn" data-src="../images/pexels-pat-whelen-6531707.mp4"></span>
+            <span class="vid-btn active" data-src="/images/Beachh.mp4"></span>
+            <span class="vid-btn" data-src="../images/video.mp4"></span>
+            <span class="vid-btn active" data-src="../images/pexels-pat-whelen-6531707.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="../images/video.mp4" id="video-slider" loop autoplay muted></video>
+            </div>
+    </section>
+        <!-- home section ends -->
+
+        <!--book section starts-->
+  <section class="book" id="book">
+    <h1 class="heading">
+      <span>b</span>
+      <span>o</span>
+      <span>o</span>
+      <span>k</span>
+      <span class="space"></span>
+      <span>n</span>
+      <span>o</span>
+      <span>w</span>
+    </h1>
+
+    <div class="row">
+        <div class="image">
+          <img src="../images/ocean.jpg" alt="">
+        </div>
+
+        <form action="">
+            <div class="inputbox">
+              <h3>where to</h3>
+              <input type="text" placeholder="place name">
+            </div>
+            <div class="inputbox">
+              <h3>how many</h3>
+              <input type="number" placeholder="number of guests">
+            </div>
+            <div class="inputbox">
+              <h3>arrivals</h3>
+              <input type="date" >
+            </div>
+            <div class="inputbox">
+              <h3>leaving</h3>
+              <input type="date" >
+            </div>
+            <input type="submit" class="btn" value="bo    ok now">
+          </form>
+        </div>
+      </section>
+
+      <!--book section starts-->
+
+      <!--packages section starts-->
+      <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="../images/pexels-aleksandar-pasaric-1285625.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>mumbai </h3>
+                    <p>this is the place one of the most visited visitors from all of the countries.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                      </div>
+                      <div class="price"> $90.00<span> $120.00</span></div>
+          <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+              <div class="box">
+                <img src="../images/pexels-ami-suhzu-3534080.jpg" alt="">
+                <div class="content">
+                  <h3><i class="fas fa-map-marker-alt"></i> sydney </h3>
+                  <p>this is the place one of the most visited visitors from all of the countries.</p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> $90.00<span> $120.00</span></div>
+                  <a href="#" class="btn">book now</a>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="../images/pexels-asad-photo-maldives-3293148.jpg" alt="">
+                <div class="content">
+                  <h3><i class="fas fa-map-marker-alt"></i> london </h3>
+                  <p>this is the place one of the most visited visitors from all of the countries.</p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> $90.00<span>$120.00</span></div>
+                  <a href="#" class="btn">book now</a>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="../images/pexels-guilherme-rossi-1705096.jpg" alt="">
+                <div class="content">
+                  <h3><i class="fas fa-map-marker-alt"></i> shimla </h3>
+                  <p>this is the place one of the most visited visitors from all of the countries.</p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> $90.00<span>$120.00</span></div>
+                  <a href="#" class="btn">book now</a>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="../images/pexels-james-wheeler-417074.jpg" alt="">
+                <div class="content">
+                  <h3><i class="fas fa-map-marker-alt"></i> lamberg </h3>
+                  <p>this is the place one of the most visited visitors from all of the countries.</p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> $90.00<span>$120.00</span></div>
+                  <a href="#" class="btn">book now</a>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="../images/pexels-johannes-plenio-1133491.jpg" alt="">
+                <div class="content">
+                  <h3><i class="fas fa-map-marker-alt"></i> egypt </h3>
+                  <p>this is the place one of the most visited visitors from all of the countries.</p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> $90.00<span>$120.00</span></div>
+                  <a href="#" class="btn">book now</a>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="../images/pexels-josh-hild-2422461.jpg" alt="">
+                <div class="content">
+                  <h3><i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                  <p>this is the place one of the most visited visitors from all of the countries.</p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> $90.00<span>$120.00</span></div>
+                  <a href="#" class="btn">book now</a>
+                </div>
+              </div>
+
+              <div class="box">
+                <img src="../images/pexels-mali-maeder-142497.jpg" alt="">
+                <div class="content">
+                  <h3><i class="fas fa-map-marker-alt"></i> paris </h3>
+                  <p>this is the place one of the most visited visitors from all of the countries.</p>
+                  <div class="stars">
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                    <i class="fas fa-star"></i>
+                  </div>
+                  <div class="price"> $90.00<span>$120.00</span></div>
+                  <a href="#" class="btn">book now</a>
+                </div>
+              </div>
+
+        </div>
+      </section>
+      <!--packages section ends-->
+
+      <!--services section starts-->
+  <section class="services" id="services">
+    <h1 class="heading">
+      <span>s</span>
+      <span>e</span>
+      <span>r</span>
+      <span>v</span>
+      <span>i</span>
+      <span>c</span>
+      <span>e</span>
+      <span>s</span>
+    </h1>
+
+    <div class="box-container">
+      <div class="box">
+        <i class="fas fa-hotel"></i>
+        <h3>affordable hotels</h3>
+        <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-utensils"></i>
+        <h3>food and drink</h3>
+        <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-bullhorn"></i>
+        <h3>safety guide</h3>
+        <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-globe-asia"></i>
+        <h3>around the work</h3>
+        <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-plane"></i>
+        <h3>fastest travel</h3>
+        <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+      </div>
+
+      <div class="box">
+        <i class="fas fa-hiking"></i>
+        <h3>adventure</h3>
+        <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+      </div>
+    </div>
+  </section>
+  <!--services section ends-->
+
+  <!--Gallery section starts-->
+  <section class="gallery" id="gallery">
+    <h1 class="heading">
+      <span>g</span>
+      <span>a</span>
+      <span>l</span>
+      <span>l</span>
+      <span>e</span>
+      <span>r</span>
+      <span>y</span>
+    </h1>
+
+    <div class="box-container">
+      <div class="box">
+        <img src="../images/view.jpg" alt="">
+        <div class="content">
+          <h3>amazing places  </h3>
+          <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../images/pexels-oday-hazeem-130621.jpg" alt="">
+        <div class="content">
+          <h3>amazing places  </h3>
+          <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../images/pexels-pixabay-415708.jpg" alt="">
+        <div class="content">
+          <h3>amazing places  </h3>
+          <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../images/pexels-ruvim-miksanskiy-1438761.jpg" alt="">
+        <div class="content">
+          <h3>amazing places  </h3>
+          <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../images/pexels-sebastian-beck-2397223.jpg" alt="">
+        <div class="content">
+          <h3>amazing places  </h3>
+          <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../images/pexels-sergio-souza-3553688.jpg" alt="">
+        <div class="content">
+          <h3>amazing places  </h3>
+          <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../images/pexels-thorsten-technoman-338515.jpg" alt="">
+        <div class="content">
+          <h3>amazing places  </h3>
+          <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+
+      <div class="box">
+        <img src="../images/pexels-ami-suhzu-3534080.jpg" alt="">
+        <div class="content">
+          <h3>amazing places  </h3>
+          <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+          <a href="#" class="btn">see more</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--Gallery section ends-->
+
+   <!--reviews section starts-->
+   <section class="review" id="review">
+    <h1 class="heading">
+      <span>r</span>
+      <span>e</span>
+      <span>v</span>
+      <span>i</span>
+      <span>e</span>
+      <span>w</span>
+      <span>s</span>
+    </h1>
+
+    <div class="swiper-container review-slider">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="../images/doc2.png" alt="">
+            <h3>john deo</h3>
+            <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="../images/doc3.png" alt="">
+            <h3>john deo</h3>
+            <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="../images/doc2.png" alt="">
+            <h3>john deo</h3>
+            <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+      
+        <div class="swiper-slide">
+          <div class="box">
+            <img src="../images/doc1.png" alt="">
+            <h3>john deo</h3>
+            <p>This is the best hotel from other hotels where you will get free of all facilities of wifi, and these are recommended hotels for all your visitors.</p>
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!--reviews section ends-->
+
+   <!--contact section starts-->
+   <section class="contact" id="contact">
+    <h1 class="heading">
+      <span>c</span>
+      <span>o</span>
+      <span>n</span>
+      <span>t</span>
+      <span>a</span>
+      <span>c</span>
+      <span>t</span>
+    </h1>
+
+    <div class="row">
+      <div class="image">
+        <img src="../images/acharya.jpg" alt="">
+      </div>
+
+      <form action="">
+        <div class="inputBox">
+          <input type="text" placeholder="name">
+          <input type="email" placeholder="email">
+        </div>
+        <div class="inputBox">
+          <input type="number" placeholder="number" maxlength="5">
+          <input type="text" placeholder="subject">
+        </div>
+        <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+        <div><input type="submit" class="btn" value="submit now"></div>
+        
+      </form>
+    </div>
+  </section>
+  <!--contact section ends-->
+
+   <!--footer section starts-->
+   <section class="footer">
+    <div class="box-container">
+      <div class="box">
+        <h3>about us</h3>
+        <p>this is the details of the company which we have the more than that the company will be so proud to be the last</p>
+      </div>
+
+      <div class="box">
+        <h3>branch location</h3>
+        <a href="#">India</a>
+        <a href="#">Australia</a>
+        <a href="#">Germany</a>
+        <a href="#">Iraq</a>
+        <a href="#">America</a>
+      </div>
+
+      <div class="box">
+        <h3>quick links</h3>
+        <a href="#">home</a>
+        <a href="#">book</a>
+        <a href="#">packages</a>
+        <a href="#">gallery</a>
+        <a href="#">services</a>
+        <a href="#">review</a>
+        <a href="#">contact</a>
+      </div>
+    
+      <div class="box">
+        <h3>follow us on</h3>
+        <a href="#">facebook</a>
+        <a href="#">instagram</a>
+        <a href="#">twitter</a>
+        <a href="#">linkedin</a>
+      </div>
+    
+      <h1 class="credit">created by <span> mr. Reddy</span> | all rights reserved</h1>
+
+    </div>
+  </section>
+  <!--footer section ends-->
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="index.js"></script>
+  <script src="../js/popper.min.js"></script>
+  <script src="../js/jquery-3.5.1.slim.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
+</body>
+</html>
